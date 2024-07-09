@@ -1,10 +1,12 @@
+# Community Installation
+
 ## Step 0 - Introduction
 
 This document was created to meet the immediate technical support needs of the Madagascar Ministry of Education. However, we fully expect that this document will become the general use case for any partners that are on-boarding our program.
 
-The team in Madagascar is working to establish a system for sharing digital content across schools at both the primary and secondary levels. This effort will begin with a pilot program at the Ministry to fully understand deployment challenges, and to upload existing content into a [National library](http://madagascarbell.ole.org) so that content can be shared quickly and easily with schools and educators around the country.
+The team in Mogadishu is working to establish a system for sharing digital content. This effort will begin with a pilot program at the [Mogadishu University](https://planet.somalia.ole.org) to fully understand deployment challenges, and to upload existing content so that content can be shared quickly and easily.
 
-This effort will begin with the MOE establishing a number of local Communities on laptops at the MOE. Content will be loaded into community and pushed to the nation server. This strategy will allow the MOE to learn to use and deploy the system. It will also allow them to work offline, as bandwidth is a challenge.
+This effort will begin with the Mogadishu University establishing a number of local Communities on laptops at the Mogadishu University. Content will be loaded into community and pushed to the nation server. This strategy will allow the Mogadishu University to learn to use and deploy the system. It will also allow them to work offline, as bandwidth is a challenge.
 
 ## Step 1 - Prerequisites
 
@@ -12,15 +14,15 @@ It is understood that tech geniuses have completed [the First Steps training exe
 
 ## Step 2 - Vagrant Environment Installation Confirmation
 
-If you have completed the installation guide, then you will find `c:\users\USERNAME\ole--vagrant-vi` (In Windows) or `Users/USERNAME/ole--vagrant-vi` (In Mac) or `/home/USERNAME/ole--vagrant-vi` (In Ubuntu) under your file system. The `ole--vagrant-vi` directory indicates that this community is attached to the development environment that OLE uses for training and to develop, test, and deploy new features.
+If you have completed the installation guide, then you will find the directory `ole--vagrant-vi` at `c:\users\USERNAME\ole--vagrant-vi` (in Windows) or `Users/USERNAME/ole--vagrant-vi` (in Mac) or `/home/USERNAME/ole--vagrant-vi` (in Ubuntu) under your file system. This directory indicates that the corresponding community is attached to the development environment that OLE uses for training and to develop, test, and deploy new features.
 
 In the steps outlined below we will build a community that is attached to the Madagascar Nation. To achieve this we will do the following:
 
 * Use git command line tools to [clone](#!./pages/vi/vi-github-and-repositories.md#Clone_your_GitHub_repository_username.github.io) the ole--vagrant-community repository to your local machine;
-* Use Vagrant command line tools to start the new virtual machine; and
+* Use [Vagrant](https://www.vagrantup.com "Vagrant Website") command line tools to start the new virtual machine; and
 * Configure the new local Community so that it is connected with the Madagascar Nation.
 
-## Step 3 - Vagrant
+## Step 3 - Installation
 
 ### How to Install a Community on a Local Laptop or PC
 
